@@ -7,5 +7,8 @@ pub struct Point {
 }
 
 impl Point {
-
+    pub fn new(x:Coordinate, y:Coordinate, z:Coordinate) -> Point {
+        Point {x, y, z}
+    }
 }
+
