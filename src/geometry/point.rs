@@ -1,14 +1,26 @@
-use crate::geometry::Coordinate;
+use crate::geometry::base::{*};
+use std::intrinsics::sqrtf32;
 
 pub struct Point {
-    pub x:Coordinate,
-    pub y:Coordinate,
-    pub z:Coordinate
+    pub x: pCoordinate,
+    pub y: pCoordinate,
+    pub z: pCoordinate
 }
 
 impl Point {
-    pub fn new(x:Coordinate, y:Coordinate, z:Coordinate) -> Point {
+    // Constructor
+    pub fn new(x: pCoordinate, y: pCoordinate, z: pCoordinate) -> Point {
         Point {x, y, z}
+    }
+
+    // Calculate the sum of the squares of x, y, z
+    pub fn sq_sum() -> pCoordinate {
+        return
+    }
+
+    // Calculate the displacement from the specified point
+    pub fn displacement(x: pCoordinate, y: pCoordinate, z: pCoordinate) -> pCoordinate {
+        return
     }
 }
 
