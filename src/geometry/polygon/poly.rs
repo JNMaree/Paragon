@@ -1,14 +1,17 @@
+use crate::geometry::base::pUID;
 use crate::geometry::line::{Line, LineLoop};
 use crate::geometry::point::Point;
 use crate::geometry::surface::Surface;
 
 pub struct Poly {
 
-    p: Vec<Point>,
+    pub p: Vec<Point>,
 
-    l: Vec<Line>,
+    pub l: Vec<Line>,
 
-    ll: LineLoop,
+    pub ll: LineLoop,
 
-    sur: Surface
+    pub sur: Surface,
+
+    uid: pUID
 }

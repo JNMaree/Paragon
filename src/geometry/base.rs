@@ -14,6 +14,11 @@ pub struct pUnitVector {
     pub k: pCoordinate
 }
 
+pub struct pUID {
+    pub id: u64,
+    pub str: String
+}
+
 pub fn sqrt(var: pCoordinate) -> pCoordinate {
     return (var as pCoordinate).sqrt()
 }

@@ -4,5 +4,7 @@ use crate::geometry::point::Point;
 
 pub struct Axis {
     pub origin: Point,
-    pub dir: pUnitVector
+    pub dir: pUnitVector,
+
+    uid: pUID
 }

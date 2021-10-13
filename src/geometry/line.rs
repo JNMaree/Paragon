@@ -3,7 +3,9 @@ use crate::geometry::point::Point;
 
 pub struct Line {
     pub p1: Point,
-    pub p2: Point
+    pub p2: Point,
+
+    uid: pUID
 }
 
 pub struct LineLoop {

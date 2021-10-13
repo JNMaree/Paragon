@@ -1,19 +1,21 @@
+use crate::geometry::base::pUID;
 use crate::geometry::line::{Line, LineLoop};
 use crate::geometry::point::Point;
 use crate::geometry::surface::Surface;
 
 pub struct Tri {
 
-    p1: Point,
-    p2: Point,
-    p3: Point,
+    pub p1: Point,
+    pub p2: Point,
+    pub p3: Point,
 
-    l1: Line,
-    l2: Line,
-    l3: Line,
+    pub l1: Line,
+    pub l2: Line,
+    pub l3: Line,
 
-    ll: LineLoop,
+    pub ll: LineLoop,
 
-    sur: Surface
+    pub sur: Surface,
 
+    uid: pUID
 }

@@ -4,7 +4,9 @@ use std::intrinsics::sqrtf32;
 pub struct Point {
     pub x: pCoordinate,
     pub y: pCoordinate,
-    pub z: pCoordinate
+    pub z: pCoordinate,
+
+    uid: pUID
 }
 
 impl Point {
