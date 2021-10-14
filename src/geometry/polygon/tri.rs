@@ -5,13 +5,9 @@ use crate::geometry::surface::Surface;
 
 pub struct Tri {
 
-    pub p1: Point,
-    pub p2: Point,
-    pub p3: Point,
+    pub p: [Point; 3],
 
-    pub l1: Line,
-    pub l2: Line,
-    pub l3: Line,
+    pub l: [Line; 3],
 
     pub ll: LineLoop,
 

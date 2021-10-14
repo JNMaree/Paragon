@@ -1,5 +1,4 @@
 use crate::geometry::base::{*};
-use std::intrinsics::sqrtf32;
 
 pub struct Point {
     pub x: pCoordinate,

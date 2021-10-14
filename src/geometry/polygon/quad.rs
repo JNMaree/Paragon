@@ -6,16 +6,10 @@ use crate::geometry::surface::Surface;
 pub struct Quad {
 
     // Define the Vertices of the Quadrilateral Polygon
-    pub p1: Point,
-    pub p2: Point,
-    pub p3: Point,
-    pub p4: Point,
+    pub p: [Point; 4],
 
     // Define the Lines/Sides of the Quadrilateral Polygon
-    pub l1: Line,
-    pub l2: Line,
-    pub l3: Line,
-    pub l4: Line,
+    pub l: [Line; 4],
 
     // Define the Line Loop for the Quadrilateral Polygon
     pub ll: LineLoop,
