@@ -1,5 +1,6 @@
 use crate::geometry::base::{*};
 use crate::geometry::point::Point;
+use crate::geometry::uid::pUID;
 
 pub struct Line {
     pub p: [Point; 2],
@@ -14,7 +15,9 @@ pub struct LineLoop {
 
 impl Line {
     pub fn new(p1: Point, p2: Point) -> Self {
-        Self { [p1; p2] }
+        pArr = [p1, p2];
+
+        return Self
     }
 
     pub fn length() -> Length {

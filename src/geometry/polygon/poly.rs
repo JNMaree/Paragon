@@ -1,7 +1,7 @@
-use crate::geometry::base::pUID;
 use crate::geometry::line::{Line, LineLoop};
 use crate::geometry::point::Point;
 use crate::geometry::surface::Surface;
+use crate::geometry::uid::pUID;
 
 pub struct Poly {
 
@@ -14,4 +14,8 @@ pub struct Poly {
     pub sur: Surface,
 
     uid: pUID
+}
+
+pub trait P {
+
 }

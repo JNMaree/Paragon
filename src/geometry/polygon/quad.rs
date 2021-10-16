@@ -1,7 +1,7 @@
-use crate::geometry::base::pUID;
 use crate::geometry::point::Point;
 use crate::geometry::line::{Line, LineLoop};
 use crate::geometry::surface::Surface;
+use crate::geometry::uid::pUID;
 
 pub struct Quad {
 
