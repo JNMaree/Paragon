@@ -1,5 +1,12 @@
+use crate::geometry::base::{*};
+use crate::geometry::uid::pUID_Register;
+
 mod geometry;
 
 fn main() {
-    println!("Hello, world!");
+    // Create Register of UIDs
+    let mut register = pUID_Register().init();
+
+
+
 }

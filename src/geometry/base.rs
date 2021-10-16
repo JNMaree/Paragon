@@ -1,4 +1,5 @@
 #![allow(non_camel_case_types)]
+#![allow(non_snake_case)]
 
 use std::ops;
 use std::process::Output;
@@ -14,7 +15,7 @@ pub struct pUnitVector {
     pub k: pCoordinate
 }
 
+
 pub fn sqrt(var: pCoordinate) -> pCoordinate {
     return (var as pCoordinate).sqrt()
 }
-
